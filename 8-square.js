@@ -1,6 +1,8 @@
 const args = process.argv.slice(2)
 if (!isNaN(args)){
-  console.log(args**2)
+  for (i = 0; i < args; i++){
+     console.log('X'.repeat(args))
+  }
 }else{
   console.log("Missing size")
 }
