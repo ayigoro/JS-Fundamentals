@@ -13,24 +13,10 @@ const num2 = parseInt(process.argv[3]);
 
 // Check if arguments are numbers
 if (isNaN(num1) || isNaN(num2)) {
-  console.log('Missing numbers');
-}else if (num2 == undefined){
-  console.log('Missing second number');
+  console.log('NaN');
+}else if (num2 == undefined ){
+  console.log('NaN');
 } else {
   console.log(add(num1, num2));
 }
 
-/**
- * [Got]
-Missing numbers
-
-(16 chars long)
-[stderr]: 
-(0 chars long)
-[Expected]
-NaN
-
-(4 chars long)
-[stderr]: [Anything]
-(0 chars long)
- */
