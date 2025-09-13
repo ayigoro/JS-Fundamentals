@@ -18,5 +18,5 @@ if (isNaN(num1) || isNaN(num2)) {
   console.log('Please provide two valid integers');
 } else {
   // Print the sum
-  console.log(add(2, 3));
+  console.log(add(num1, num2));
 }
